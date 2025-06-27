@@ -34,40 +34,52 @@ public class Festivo {
         this.idtipo = idtipo;
     }
 
-    public void setDia(int dia) {
-        this.dia = dia;
+    public Long getId() {
+        return id;
     }
 
-    public void setMes(int mes) {
-        this.mes = mes;
-    }
-
-    public void setDiaspascua(int diaspascua) {
-        this.diaspascua = diaspascua;
-    }
-
-    public void setIdtipo(int idtipo) {
-        this.idtipo = idtipo;
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getNombre() {
         return nombre;
     }
 
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+
     public int getDia() {
         return dia;
+    }
+
+    public void setDia(int dia) {
+        this.dia = dia;
     }
 
     public int getMes() {
         return mes;
     }
 
+    public void setMes(int mes) {
+        this.mes = mes;
+    }
+
     public int getDiaspascua() {
         return diaspascua;
     }
 
+    public void setDiaspascua(int diaspascua) {
+        this.diaspascua = diaspascua;
+    }
+
     public int getIdtipo() {
         return idtipo;
+    }
+
+    public void setIdtipo(int idtipo) {
+        this.idtipo = idtipo;
     }
 
 }
